@@ -1,0 +1,19 @@
+title: Logic Design Lab
+description: RF, professional audio and electronic design
+url: "https://logicdesignlab.com"
+baseurl: ""
+
+markdown: kramdown
+permalink: /notes/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
