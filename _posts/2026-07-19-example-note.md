@@ -1,6 +1,6 @@
 ---
 title: Example technical note
-published: false
+published: true
 ---
 
 This is an example post.
