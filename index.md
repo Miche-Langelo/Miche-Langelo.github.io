@@ -5,17 +5,18 @@ description: Independent electronic design practice focused on RF, professional 
 
 # Logic Design Lab
 
-Independent electronic design practice by **Michelangelo Carrozzo**, focused on RF, professional audio, industrial electronics and electromagnetic compatibility.
+Logic Design Lab is an electronic design firm specializing in RF, professional audio, industrial electronics, and electromagnetic compatibility (EMC). 
 
-Logic Design Lab was established in 2007, following a career in electronic and wireless design that began in the late 1980s.
+Founded in 2007 by Michelangelo Carrozzo—following his extensive career in wireless hardware design dating back to the late 1980s.
 
-The work is technical and direct: architecture, circuit design, prototype bring-up, measurement, troubleshooting, certification support and production follow-up.
+* *Core Capabilities*: System architecture, circuit design, and prototype bring-up.
+* *Engineering Services*: Testing, troubleshooting, compliance/certification support, and production oversight.
 
 ## RF and wireless design
 
 Design and review of radio-frequency circuits, from low-frequency systems to microwave front ends.
 
-Experience includes transmitters, receivers and transceivers for broadcast, ISM, WLAN and cellular applications.
+Experience includes transceivers for broadcast, ISM, WLAN and cellular applications.
 
 Typical work includes:
 
@@ -30,16 +31,16 @@ Typical work includes:
 
 Analog and mixed-signal design for professional audio equipment.
 
-The focus is on low noise, low distortion, predictable behaviour and practical robustness in production.
+The focus is on low noise, low distortion and practical robustness in production.
 
 Typical work includes:
 
 - microphone, line and instrument inputs
 - analog audio signal paths
 - ADC, DAC and clocking integration
-- power supplies for low-noise systems
-- grounding and shielding
-- noise, distortion and interference analysis
+- FPGA data processing and signal muxing
+- power supplies design for low-noise systems
+- noise, distortion, intermodulation and interference analysis with Audio Precision system
 
 ## Electronic product design
 
@@ -70,12 +71,21 @@ Typical activities include:
 
 ## Laboratory
 
-The laboratory is equipped for RF, audio, mixed-signal and EMC investigation.
-
-Measurements are used throughout the design process, not only at final verification.
+Our *in-house laboratory* is fully equipped with advanced, high-precision instrumentation for RF, digital, analog, and EMC investigation. 
+This setup allows for deep-dive testing and performance verification during every phase of development:
+ * *RF Analysis*: Vector Network Analyzers (VNA), spectrum analyzers, signal generators, and modulation analyzers.
+ * *Digital & Mixed-Signal*: High-speed oscilloscopes and protocol analyzers for advanced signal integrity and debugging.
+ * *Analog & Pro Audio*: Audio Precision (AP System Two) testing suites and high-precision power supplies.
 
 ## Contact
 
-Michelangelo Carrozzo  
-Bologna, Italy  
+Logic Design di Carrozzo Michelangelo
+Via Poggiorenatico 10
+40137 Bologna, Italy
+
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2837.7777490512144!2d11.377554276572651!3d44.66289228654485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fcb848c87e04f%3A0x43a44cdcf654eaa8!2sVia%20Poggiorenatico%2C%2010%2C%2040016%20San%20Giorgio%20di%20Piano%20BO!5e0!3m2!1sit!2sit!4v1784564426073!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+  </iframe>
+</div>
+
 [logicdesignlabs@gmail.com](mailto:logicdesignlabs@gmail.com)
