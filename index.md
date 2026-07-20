@@ -7,10 +7,10 @@ description: Independent electronic design practice focused on RF, professional 
 
 Logic Design Lab is an electronic design firm specializing in RF, professional audio, industrial electronics, and electromagnetic compatibility (EMC). 
 
-Founded in 2007 by Michelangelo Carrozzo—following his extensive career in wireless hardware design dating back to the late 1980s.
+Founded in 2007 by Michelangelo Carrozzo following his extensive career in wireless hardware design dating back to the late 1980s.
 
-* *Core Capabilities*: System architecture, circuit design, and prototype bring-up.
-* *Engineering Services*: Testing, troubleshooting, compliance/certification support, and production oversight.
+* **Core Capabilities**: System architecture, circuit design, and prototype bring-up.
+* **Engineering Services**: Testing, troubleshooting, compliance/certification support, and production oversight.
 
 ## RF and wireless design
 
