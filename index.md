@@ -73,14 +73,16 @@ Typical activities include:
 
 Our *in-house laboratory* is fully equipped with advanced, high-precision instrumentation for RF, digital, analog, and EMC investigation. 
 This setup allows for deep-dive testing and performance verification during every phase of development:
- * *RF Analysis*: Vector Network Analyzers (VNA), spectrum analyzers, signal generators, and modulation analyzers.
- * *Digital & Mixed-Signal*: High-speed oscilloscopes and protocol analyzers for advanced signal integrity and debugging.
- * *Analog & Pro Audio*: Audio Precision (AP System Two) testing suites and high-precision power supplies.
+ * **RF Analysis**: Vector Network Analyzers (VNA), spectrum analyzers, signal generators, and modulation analyzers.
+ * **Digital & Mixed-Signal**: High-speed oscilloscopes and protocol analyzers for advanced signal integrity and debugging.
+ * **Analog & Pro Audio**: Audio Precision (AP System Two) testing suites and high-precision power supplies.
 
 ## Contact
 
 Logic Design di Carrozzo Michelangelo
+
 Via Poggiorenatico 10
+
 40137 Bologna, Italy
 
 <div class="map">
@@ -88,4 +90,5 @@ Via Poggiorenatico 10
   </iframe>
 </div>
 
+Email: 
 [logicdesignlabs@gmail.com](mailto:logicdesignlabs@gmail.com)
