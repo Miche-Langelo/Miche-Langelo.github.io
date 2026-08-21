@@ -224,80 +224,11 @@ h1 em { color: var(--blue); font-style: normal; font-weight: 500; }
 .scope-card i:nth-of-type(7) { height: 6px; }
 .scope-card b { display: block; margin-top: 14px; font-size: 12px; font-weight: 400; text-align: right; }
 
-.signal-path {
-  display: grid;
-  grid-template-columns: minmax(190px, .8fr) minmax(0, 5.2fr);
-  align-items: stretch;
-  color: #dce5e8;
-  background: var(--ink);
-  border-top: 1px solid #324047;
-  border-bottom: 1px solid #324047;
-}
-.signal-path > p {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0;
-  padding: 16px clamp(24px, 4vw, 72px);
-  color: #7f9098;
-  font-family: var(--mono);
-  font-size: 7px;
-  letter-spacing: .08em;
-  line-height: 1.25;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-.signal-path > p span { color: #5eb8e8; }
-.signal-path > p b { font-weight: 400; }
-.signal-path-track { min-width: 0; overflow: hidden; }
-.signal-path ol {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  min-height: 48px;
-  margin: 0;
-  padding: 0 30px 0 12px;
-  list-style: none;
-}
-.signal-path ol::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 32px;
-  left: 28px;
+.technical-divider {
   height: 1px;
-  background: linear-gradient(90deg, #2d4653, #4d95bb);
+  margin: 0 clamp(24px, 4vw, 72px);
+  background: linear-gradient(90deg, var(--blue) 0 7%, var(--line) 7% 100%);
 }
-.signal-path ol::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 26px;
-  border-top: 3px solid transparent;
-  border-bottom: 3px solid transparent;
-  border-left: 6px solid #5eb8e8;
-  transform: translateY(-50%);
-}
-.signal-path li {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0;
-  min-width: 0;
-  padding: 15px 4px;
-  font-family: var(--mono);
-  font-size: 8px;
-  letter-spacing: .03em;
-}
-.signal-path li span,
-.signal-path li b {
-  position: relative;
-  z-index: 1;
-  background: var(--ink);
-}
-.signal-path li span { padding: 0 5px 0 8px; color: #5eb8e8; font-size: 6px; }
-.signal-path li b { padding: 0 8px 0 2px; font-weight: 400; }
 
 .direction {
   display: grid;
@@ -535,7 +466,6 @@ footer a:hover { color: #c8d8df; }
   .hero { grid-template-columns: 1fr; }
   .hero-copy { max-width: 760px; }
   .hero-visual { min-height: 660px; }
-  .signal-path { grid-template-columns: 180px minmax(0, 1fr); }
   .direction { grid-template-columns: 1fr 1fr; }
   .direction .section-index { grid-column: 1 / -1; }
   .capability-card-wide { grid-template-columns: 60px 1fr; }
@@ -573,10 +503,6 @@ footer a:hover { color: #c8d8df; }
   .photo-main { inset: 0 0 4% 0; }
   .photo-detail { width: 42%; top: 6%; }
   .scope-card { width: 62%; }
-  .signal-path { display: block; }
-  .signal-path > p { padding: 11px 20px 6px; }
-  .signal-path-track { overflow-x: auto; scrollbar-width: thin; }
-  .signal-path ol { grid-template-columns: repeat(6, minmax(110px, 1fr)); min-width: 680px; }
   .direction { display: block; padding: 74px 20px 80px; }
   .direction h2 { margin: 28px 0; }
   .direction > p:last-child { font-size: 16px; }
