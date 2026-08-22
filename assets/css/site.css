@@ -419,10 +419,10 @@ details p { margin: 0; padding: 2px 0 24px; color: #94a4ab; font-size: 12px; lin
 .method-steps p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
 
 .roots { display: grid; grid-template-columns: 1.3fr .7fr; min-height: 760px; color: #e8eff1; background: #14222a; }
-.roots-copy { padding: 120px clamp(42px, 7vw, 120px); }
+.roots-copy { min-width: 0; padding: 120px clamp(42px, 7vw, 120px); }
 .roots h2 { color: var(--white); }
 .roots-copy > p:not(.section-index) { max-width: 760px; color: #aebcc2; font-size: 16px; line-height: 1.8; }
-.roots-copy .affiliation { width: max-content; max-width: 100%; display: flex; align-items: center; gap: 13px; margin-top: 34px; padding: 12px 16px; border: 1px solid #40525b; color: #c8d7dd; font-family: var(--mono); font-size: 9px; line-height: 1.5; text-transform: uppercase; }
+.roots-copy > p.affiliation { width: fit-content; max-width: 100%; display: flex; align-items: center; gap: 13px; margin-top: 34px; padding: 12px 16px; border: 1px solid #40525b; color: #c8d7dd; font-family: var(--mono); font-size: 9px; line-height: 1.5; text-transform: uppercase; }
 .roots-copy .affiliation span { display: inline-grid; place-items: center; flex: 0 0 38px; height: 28px; color: #75c5e9; border: 1px solid #5f8597; font-size: 11px; }
 .roots-copy blockquote { max-width: 680px; margin: 48px 0 0; padding: 5px 0 5px 28px; border-left: 2px solid #5db6e0; color: #d8e6ec; font-size: 20px; line-height: 1.55; }
 .roots-aside { display: flex; flex-direction: column; justify-content: flex-end; padding: 80px 60px; border-left: 1px solid #34444c; background-image: linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px); background-size: 34px 34px; }
@@ -486,6 +486,8 @@ footer a:hover { color: #c8d8df; }
 }
 
 @media (max-width: 720px) {
+  html,
+  body { max-width: 100%; overflow-x: hidden; }
   .site-header { min-height: 72px; padding: 0 20px; }
   .header-contact { display: none; }
   .hero { min-height: auto; padding: 46px 20px 48px; gap: 54px; }
@@ -533,7 +535,9 @@ footer a:hover { color: #c8d8df; }
   .spec-grid { grid-template-columns: 1fr; }
   .spec-grid div:nth-child(even) { padding-left: 0; border-left: 0; }
   .system-card { min-height: 450px; padding: 36px 26px; }
-  .patent-band { grid-template-columns: 1fr; }
+  .patent-band { grid-template-columns: minmax(0, 1fr); }
+  .patent-document,
+  .patent-copy { min-width: 0; }
   .patent-document { padding: 60px 34px; border-right: 0; border-bottom: 1px solid var(--line); }
   .patent-copy { padding: 68px 20px; }
   .patent-data { grid-template-columns: 1fr; }
@@ -550,7 +554,11 @@ footer a:hover { color: #c8d8df; }
   .method-steps li { min-height: 240px; }
   .method-steps li::after { display: none; }
   .method-steps h3 { margin-top: 56px; }
-  .roots-copy { padding: 74px 20px; }
+  .roots,
+  .roots-copy,
+  .roots-aside { min-width: 0; }
+  .roots-copy { width: 100%; padding: 74px 20px; overflow-wrap: anywhere; }
+  .roots-copy > p.affiliation { width: 100%; padding: 12px 14px; }
   .roots-copy blockquote { margin-top: 38px; padding-left: 18px; font-size: 17px; }
   .roots-aside { min-height: 420px; padding: 58px 20px; }
   .contact { display: block; padding: 78px 20px; }
