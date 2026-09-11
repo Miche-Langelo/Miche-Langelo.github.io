@@ -2,3 +2,6 @@ title: Logic Design Lab
 description: Independent RF, wireless audio and electronic systems engineering laboratory in Bologna, Italy.
 url: "https://logicdesignlab.com"
 baseurl: ""
+exclude:
+  - content
+  - review

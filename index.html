@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Independent RF, wireless audio and electronic systems engineering laboratory in Bologna, Italy.">
+  <meta name="description" content="RF, analog audio and FPGA design by Michelangelo Carrozzo. Independent laboratory in Bologna since 2000, from radio architecture to production.">
   <title>Logic Design Lab — RF &amp; Wireless Systems Engineering</title>
   <link rel="canonical" href="https://logicdesignlab.com/">
   <meta property="og:type" content="website">
@@ -18,293 +18,59 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/site.css?v=20260822-1">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%2314222a' d='M0 0h32v32H0z'/%3E%3Cpath fill='%23fbfcfb' d='M6 6h8v8H6zm12 0h8v8h-8zM6 18h8v8H6z'/%3E%3Cpath fill='%233495cd' d='M18 18h8v8h-8z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/site.css?v=20260911-1">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Logic Design Lab home">
-      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-      <span class="brand-name">Logic Design <strong>Lab</strong></span>
-    </a>
-    <nav class="primary-nav" aria-label="Primary navigation">
-      <a href="#capabilities">Capabilities</a>
-      <a href="#systems">Systems</a>
-      <a href="#laboratory">Laboratory</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="header-contact" href="mailto:logicdesignlabs@gmail.com">Start a technical conversation</a>
+  <a class="skip-link" href="#top">Skip to content</a>
+  <header class="site-header page-width">
+    <a class="brand" href="#top" aria-label="Logic Design Lab home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Logic Design <strong>Lab</strong></span></a>
+    <span class="header-location">Bologna, Italy · Est. 2000</span>
+    <nav aria-label="Main navigation"><a href="#systems">Work</a><a href="#laboratory">The lab</a><a href="#contact">Contact</a></nav>
   </header>
-
   <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
+    <section class="hero page-width" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span>Independent engineering laboratory</span><span>Bologna · Italy</span></p>
+        <p class="eyebrow">Independent RF &amp; audio engineering</p>
         <h1 id="hero-title">From antenna<br>to <em>bits.</em></h1>
-        <p class="hero-lead">RF, professional wireless audio and electronic systems engineered across the complete signal chain — from architecture and hardware to measurement and production.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#capabilities">Explore capabilities <span aria-hidden="true">↘</span></a>
-          <a class="button button-secondary" href="#systems">Selected systems</a>
-        </div>
-        <div class="hero-facts" aria-label="Key facts">
-          <div><b>10 MHz–6 GHz</b><span>Low- and high-power RF systems</span></div>
-          <div><b>470–870 MHz</b><span>Professional wireless audio expertise</span></div>
-          <div><b>R&amp;D → MP</b><span>Design through production</span></div>
-        </div>
+        <p class="hero-lead">Radio systems for professional audio.<br>From the first circuit to production.</p>
+        <p>Logic Design Lab is Michelangelo Carrozzo’s independent laboratory. Since 2000, it has developed RF hardware, analog audio and FPGA logic for professional audio manufacturers.</p>
+        <a class="text-link" href="#systems">Selected projects <span aria-hidden="true">↓</span></a>
       </div>
-
-      <div class="hero-visual" aria-label="Logic Design Lab RF measurement bench">
-        <figure class="photo-main">
-          <img src="assets/images/lab-overview-web.jpg" alt="RF and audio measurement laboratory with engineering instruments">
-          <figcaption><span>01</span> In-house RF &amp; audio laboratory</figcaption>
-        </figure>
-        <figure class="photo-detail">
-          <img src="assets/images/rf-bench-web.jpg" alt="RF circuit under measurement on a laboratory bench">
-          <figcaption>Measured, not assumed</figcaption>
-        </figure>
-        <div class="scope-card" aria-hidden="true">
-          <span>470–870 MHz / MEASURED SENSITIVITY</span>
-          <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-          <b>−97.4 dBm</b>
-        </div>
-      </div>
+      <figure class="hero-photo"><img src="assets/images/lab-overview-web.jpg" width="1800" height="1350" alt="The RF and audio measurement bench at Logic Design Lab in Bologna" fetchpriority="high"><figcaption><span>The laboratory, Bologna</span><span>RF · Audio · Digital</span></figcaption></figure>
     </section>
-
-    <div class="technical-divider" aria-hidden="true"></div>
-
-    <section class="direction" id="capabilities">
-      <p class="section-index">01 / ENGINEERING APPROACH</p>
-      <h2>Architecture first.<br><span>Physics always.</span></h2>
-      <p>Logic Design Lab is built around direct engineering responsibility: system decisions are followed through circuit design, FPGA implementation, prototype bring-up, laboratory validation and the realities of repeatable manufacturing.</p>
+    <section class="engineering page-width" id="capabilities" aria-labelledby="engineering-title">
+      <div class="section-side"><p class="eyebrow">Design scope</p><h2 id="engineering-title">10 MHz<br> to 6 GHz.</h2><p>Low- and high-power RF.<br>Particular experience in<br>470–870 MHz wireless audio.</p></div>
+      <dl class="engineering-list">
+        <div><dt>RF &amp; analog</dt><dd>TX/RX hardware, PLLs and VCOs, switched output filters, wideband PCB antennas, low-noise audio and converter interfaces.</dd></div>
+        <div><dt>Digital radio</dt><dd>Original over-the-air protocols and FPGA receiver clock recovery. Embedded C drivers and low-level STM32 debug; detailed specifications for DSP firmware developers.</dd></div>
+        <div><dt>Production</dt><dd>Test fixtures, GPIB automation, calibration and operator training. Direct production transfer in China, Germany and Italy.</dd></div>
+      </dl>
     </section>
-
-    <section class="capabilities" aria-labelledby="capabilities-title">
-      <div class="section-heading">
-        <div>
-          <p class="section-index">02 / CORE CAPABILITIES</p>
-          <h2 id="capabilities-title">The complete<br>signal chain.</h2>
-        </div>
-        <p>A compact laboratory with system-level reach. The work stays connected from RF propagation to recovered data, from the noise floor to the production test bench.</p>
-      </div>
-
-      <div class="capability-grid">
-        <article class="capability-card capability-card-wide">
-          <div class="card-number">01</div>
-          <div>
-            <p class="card-kicker">RF / WIRELESS</p>
-            <h3>Wideband RF systems &amp; antennas</h3>
-            <p>Transmitters and receivers, frequency synthesis, low-noise front ends, switched filtering and wideband PCB antennas developed as one coherent RF architecture.</p>
-            <ul class="tag-list" aria-label="RF capabilities">
-              <li>470–870 MHz platforms</li><li>PLL / VCO</li><li>PCB antennas</li><li>Sonnet EM</li><li>Dense multichannel RF</li>
-            </ul>
-          </div>
-          <div class="simulation-panel">
-            <p><span>SONNET EM</span> Wideband TX PCB antenna development</p>
-            <div class="simulation-grid">
-              <figure class="simulation-main"><img src="assets/images/sonnet-current-web.jpg" alt="Sonnet electromagnetic model and surface-current simulation for a wideband transmitter PCB antenna"><figcaption>EM model / current distribution</figcaption></figure>
-              <figure><img src="assets/images/sonnet-pattern-web.jpg" alt="Sonnet three-dimensional antenna gain simulation"><figcaption>Radiation pattern</figcaption></figure>
-              <figure><img src="assets/images/sonnet-smith-web.jpg" alt="Sonnet Smith-chart impedance simulation"><figcaption>Impedance</figcaption></figure>
-            </div>
-          </div>
-        </article>
-
-        <article class="capability-card">
-          <div class="card-number">02</div>
-          <p class="card-kicker">ANALOG / AUDIO</p>
-          <h3>Low noise. Low distortion. Real headroom.</h3>
-          <p>Microphone-quality analog paths, ADC/DAC integration, clocking and power architectures verified with precision audio measurement.</p>
-          <div class="metric"><strong>126 dB</strong><span>system dynamic range achieved in a production wireless platform</span></div>
-        </article>
-
-        <article class="capability-card card-blue">
-          <div class="card-number">03</div>
-          <p class="card-kicker">FPGA / DIGITAL LINK</p>
-          <h3>Protocols built around the channel.</h3>
-          <p>Proprietary over-the-air framing, modulation and demodulation logic, clock recovery, encryption integration and receiver data paths.</p>
-          <div class="bitstream" aria-hidden="true"><span>1</span><span>0</span><span>1</span><span>1</span><span>0</span><span>0</span><span>1</span><span>0</span></div>
-        </article>
-
-        <article class="capability-card">
-          <div class="card-number">04</div>
-          <p class="card-kicker">EMBEDDED INTEGRATION</p>
-          <h3>Hardware and firmware meet at defined interfaces.</h3>
-          <p>Board-level drivers, STM32 low-level debugging and detailed DSP/firmware specifications aligned with the radio protocol and hardware timing.</p>
-          <ul class="tag-list"><li>Embedded C</li><li>Drivers</li><li>STM32 debug</li><li>DSP specification</li></ul>
-        </article>
-
-        <article class="capability-card capability-card-image">
-          <img src="assets/images/prototype-bench-web.jpg" alt="Wireless audio prototypes undergoing RF measurements">
-          <div class="image-card-copy">
-            <div class="card-number">05</div>
-            <p class="card-kicker">BRING-UP / DEBUG</p>
-            <h3>Prototype reality.</h3>
-            <p>What simulation predicts is challenged at the bench — early, repeatedly and with the right instrument.</p>
-          </div>
-        </article>
-
-        <article class="capability-card capability-card-wide industrial-card">
-          <div class="card-number">06</div>
-          <div>
-            <p class="card-kicker">INDUSTRIALIZATION</p>
-            <h3>Engineering does not stop at the working prototype.</h3>
-            <p>Design-for-test, automated GPIB procedures, fixtures, calibration, quality-control documentation, operator training and direct production transfer in Europe and Asia.</p>
-          </div>
-          <div class="industrial-route" aria-label="Production engineering route"><span>R&amp;D</span><i></i><span>PILOT</span><i></i><span>MP</span><i></i><span>QC</span></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="systems" id="systems" aria-labelledby="systems-title">
-      <div class="systems-intro">
-        <p class="section-index">03 / SELECTED SYSTEMS</p>
-        <h2 id="systems-title">Engineered into<br><span>real products.</span></h2>
-        <p>The most meaningful specification is a system that survives the stage, the spectrum and the production line. Selected architectures developed through Logic Design Lab have been commercialized internationally.</p>
-      </div>
-
-      <article class="system-feature">
-        <div class="system-photo">
-          <img src="assets/images/anechoic-chamber-web.jpg" alt="Professional digital wireless receiver under test in an RF anechoic chamber">
-          <span class="photo-label">RF anechoic validation / production system</span>
-        </div>
-        <div class="system-copy">
-          <p class="system-meta"><span>Current production</span><span>Major professional audio brand</span></p>
-          <h3>High-end digital wireless microphone system</h3>
-          <p class="system-lead">A professional digital wireless audio platform designed for high channel density, difficult RF environments and uncompromised microphone performance.</p>
-          <dl class="spec-grid">
-            <div><dt>Tuning range</dt><dd>470–870 MHz</dd></div>
-            <div><dt>Audio</dt><dd>126 dB dynamic range</dd></div>
-            <div><dt>Security</dt><dd>AES encrypted audio</dd></div>
-            <div><dt>Scope</dt><dd>System architecture · TX/RX hardware · RF · analog · FPGA protocol</dd></div>
-          </dl>
-          <details>
-            <summary>Engineering note <span>+</span></summary>
-            <p>The RF link, wideband transmitter, switched output filtering, PCB antenna, low-noise audio path, over-the-air protocol and FPGA clock-recovery architecture were developed as a single system. DSP firmware was implemented by specialized developers from the detailed protocol and hardware requirements supplied by Logic Design Lab.</p>
-          </details>
-        </div>
+    <section class="work-section" id="systems" aria-labelledby="systems-title"><div class="page-width">
+      <div class="section-heading"><p class="eyebrow">Selected work</p><h2 id="systems-title">Systems I’ve designed.</h2><p class="byline">Michelangelo Carrozzo</p></div>
+      <article class="featured-project">
+        <figure><img src="assets/images/anechoic-chamber-web.jpg" width="1400" height="1050" loading="lazy" alt="A digital wireless receiver being tested in an RF anechoic chamber"><figcaption>RF anechoic testing</figcaption></figure>
+        <div class="project-copy"><p class="project-maker">Major professional audio manufacturer</p><h3>Digital wireless microphones</h3><p>System architecture, complete TX/RX hardware, wideband PCB antennas, audio circuits and the original radio protocol with FPGA clock recovery.</p><p class="project-data">470–870 MHz · 126 dB audio dynamic range · AES encryption</p><details><summary>RF &amp; implementation notes</summary><div class="detail-copy"><p>Receiver sensitivity of −97.4 dBm measured during development. The link was developed for crowded stages and interference-heavy RF conditions.</p><p>The original FPGA logic was designed in schematic capture, then migrated to VHDL under Michelangelo’s supervision. Specialist colleagues implemented DSP firmware, including the audio codec, from his protocol and hardware specifications.</p></div></details></div>
       </article>
-
-      <div class="system-grid">
-        <article class="system-card">
-          <p class="system-meta"><span>2009</span><span>dBTechnologies</span></p>
-          <h3>DWS800 / RS16000 Touring Rack</h3>
-          <p>Patented digital wireless platform with 400 MHz switching bandwidth, later evolved into the RS16000 touring-rack system with dedicated PC control software and Ethernet configuration.</p>
-          <ul><li>470–870 MHz</li><li>Proprietary digital radio protocol &amp; FPGA clock recovery</li><li>Dedicated PC software / Ethernet</li><li>Production transfer in China</li></ul>
-          <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2012131735" target="_blank" rel="noreferrer">Patent WO 2012/131735 ↗</a>
-        </article>
-
-        <article class="system-card">
-          <p class="system-meta"><span>Professional wireless</span><span>beyerdynamic</span></p>
-          <h3>TG1000 / TG500</h3>
-          <p>Digital and high-end analog wireless microphone platforms developed through a mixed Italian–German engineering collaboration.</p>
-          <ul><li>400 MHz tuning range</li><li>High-quality digital audio</li><li>Complete RF hardware</li><li>German / Italian production support</li></ul>
-        </article>
-
-        <article class="system-card">
-          <p class="system-meta"><span>2005</span><span>RCF</span></p>
-          <h3>Forum conference system</h3>
-          <p>Large digital conference architecture with central management, networked consoles and an encrypted radio interpretation system.</p>
-          <ul><li>Up to 250 consoles</li><li>RJ45-connected digital consoles</li><li>Automatic console updates</li><li>Multichannel encrypted UHF interpretation</li></ul>
-        </article>
+      <div class="project-register">
+        <article><div><p class="project-maker">dBTechnologies</p><h3>DWS800 / RS16000<br> Touring Rack</h3></div><div><p>400 MHz digital wireless platform. TX/RX hardware, radio protocol and FPGA clock recovery; production transfer in China. The later RS16000 added dedicated PC control and Ethernet configuration.</p><a class="quiet-link" href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2012131735" target="_blank" rel="noreferrer">Patent publication WO 2012/131735 A1 <span aria-hidden="true">↗</span></a><p class="fine-print">Named inventor: Michelangelo Carrozzo</p></div></article>
+        <article><div><p class="project-maker">beyerdynamic</p><h3>TG1000 &amp; TG500</h3></div><p>TG1000: digital wireless with 400 MHz tuning, an original radio protocol and FPGA clock recovery. TG500: analog wireless. Hardware design and production support in Germany and Italy.</p></article>
+        <article><div><p class="project-maker">RCF · 2005</p><h3>Forum 2000</h3></div><p>Digital conference hardware for up to 250 consoles, automatic console updates and encrypted UHF simultaneous interpretation. Hardware design and coordination of the software/firmware team.</p></article>
       </div>
+    </div></section>
+    <section class="laboratory page-width" id="laboratory" aria-labelledby="lab-title">
+      <div class="section-heading"><p class="eyebrow">Inside the lab</p><h2 id="lab-title">On the bench.</h2></div>
+      <div class="bench-layout">
+        <figure class="debug-photo"><img src="assets/images/fpga-debug-bench-web.jpg" width="1600" height="1200" loading="lazy" alt="Altera MAX 10 development board and oscilloscope probes connected to a Xilinx debugging setup"><figcaption>Debugging a Xilinx with an Altera MAX 10. An unusual pairing, but a useful one.</figcaption></figure>
+        <div class="bench-notes"><p>FSIQ7 vector signal analysis to 7 GHz, network analysis to 6 GHz, vector generators to 5.4 GHz and an Audio Precision System Two.</p><p class="tools-note">Sonnet EM · Micro-Cap · MATLAB</p><figure class="sonnet-image"><img src="assets/images/sonnet-current-web.jpg" width="1000" height="750" loading="lazy" alt="Sonnet model showing surface current in a wideband transmitter PCB antenna"><figcaption>Wideband TX antenna: Sonnet surface-current model.</figcaption></figure><details class="light-details"><summary>Antenna simulation views</summary><div class="simulation-pair"><figure><img src="assets/images/sonnet-pattern-web.jpg" width="1000" height="750" loading="lazy" alt="Simulated antenna radiation pattern"><figcaption>Radiation pattern</figcaption></figure><figure><img src="assets/images/sonnet-smith-web.jpg" width="1000" height="750" loading="lazy" alt="Simulated antenna impedance on a Smith chart"><figcaption>Impedance</figcaption></figure></div></details></div>
+      </div>
+      <details class="light-details bench-gallery"><summary>More from the laboratory</summary><div class="bench-gallery-grid"><figure><img src="assets/images/engineering-at-bench-web.jpg" width="1000" height="1250" loading="lazy" alt="Michelangelo working at the laboratory bench"><figcaption>Hardware bring-up</figcaption></figure><figure><img src="assets/images/rf-measurement-web.jpg" width="1400" height="1050" loading="lazy" alt="RF hardware measured with the FSIQ7 signal analyzer"><figcaption>RF measurement</figcaption></figure></div></details>
     </section>
-
-    <section class="patent-band" aria-labelledby="patent-title">
-      <div class="patent-document">
-        <img src="assets/images/patent-wo2012131735-web.jpg" alt="First page of patent WO 2012/131735">
-      </div>
-      <div class="patent-copy">
-        <p class="section-index">04 / ORIGINAL IP</p>
-        <h2 id="patent-title">A wideband idea,<br>made manufacturable.</h2>
-        <p>Patent WO 2012/131735 covers the digital microphone radio transmission architecture developed for the DWS800 platform and its later RS16000 touring-rack evolution. The invention addressed wide tuning, RF performance and practical product implementation as one problem.</p>
-        <div class="patent-data">
-          <div><span>Inventor</span><b>Michelangelo Carrozzo</b></div>
-          <div><span>Publication</span><b>WO 2012/131735 A1</b></div>
-          <div><span>Application</span><b>PCT/IT2011/000098</b></div>
-        </div>
-        <a class="text-link" href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2012131735" target="_blank" rel="noreferrer">Open the WIPO record <span>↗</span></a>
-      </div>
-    </section>
-
-    <section class="laboratory" id="laboratory" aria-labelledby="laboratory-title">
-      <div class="lab-heading">
-        <p class="section-index">05 / THE LABORATORY</p>
-        <h2 id="laboratory-title">Design is a hypothesis.<br><span>Measurement is the answer.</span></h2>
-      </div>
-
-      <div class="lab-gallery">
-        <figure class="lab-image lab-image-a"><img src="assets/images/engineering-at-bench-web.jpg" alt="Engineer working at the Logic Design Lab RF bench"><figcaption>System bring-up / Bologna</figcaption></figure>
-        <figure class="lab-image lab-image-b"><img src="assets/images/rf-measurement-web.jpg" alt="FSIQ7 signal analyzer measuring RF hardware at the laboratory bench"><figcaption>RF hardware measurement / FSIQ7</figcaption></figure>
-          <figure class="lab-image lab-image-c"><img src="assets/images/fpga-debug-bench-web.jpg" alt="Cross-platform FPGA debugging setup using an Altera MAX 10 to debug a Xilinx device"><figcaption>Cross-platform FPGA debug — a Xilinx device observed through an Altera MAX 10</figcaption></figure>
-      </div>
-
-      <div class="instruments">
-        <div class="instrument-intro">
-          <p class="card-kicker">IN-HOUSE MEASUREMENT</p>
-          <h3>The bench closes the loop.</h3>
-          <p>Direct access to RF and audio instrumentation makes iterative debugging part of the design process, not an outsourced final check.</p>
-        </div>
-        <ul class="instrument-list">
-          <li><span>RF</span><b>Vector signal analysis to 7 GHz</b></li>
-          <li><span>S-PARAMETERS</span><b>Vector network analysis to 6 GHz</b></li>
-          <li><span>STIMULUS</span><b>Vector signal generation to 5.4 GHz</b></li>
-          <li><span>AUDIO</span><b>Audio Precision System Two · full option set</b></li>
-          <li><span>DIGITAL</span><b>Oscilloscopes · protocol analysis · low-level debug</b></li>
-          <li><span>AUTOMATION</span><b>GPIB test and production procedures</b></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="method" aria-labelledby="method-title">
-      <div class="section-heading">
-        <div>
-          <p class="section-index">06 / WORKING METHOD</p>
-          <h2 id="method-title">One continuous<br>engineering loop.</h2>
-        </div>
-        <p>Small by design, the lab keeps technical judgment close to the hardware while integrating with specialist firmware, mechanical and manufacturing teams when the system requires it.</p>
-      </div>
-      <ol class="method-steps">
-        <li><span>01</span><h3>Define</h3><p>System architecture, RF budget, audio targets, interfaces and constraints.</p></li>
-        <li><span>02</span><h3>Simulate</h3><p>Circuit behaviour, modulation, RF networks, antennas and electromagnetic structures.</p></li>
-        <li><span>03</span><h3>Build</h3><p>Schematics, PCB, FPGA logic, drivers and the first complete signal path.</p></li>
-        <li><span>04</span><h3>Measure</h3><p>Bring-up, correlation, interference analysis, audio performance and RF resilience.</p></li>
-        <li><span>05</span><h3>Transfer</h3><p>Test strategy, fixtures, procedures, training and production supervision.</p></li>
-      </ol>
-    </section>
-
-    <section class="roots" aria-labelledby="roots-title">
-      <div class="roots-copy">
-        <p class="section-index">07 / TECHNICAL ROOTS</p>
-        <h2 id="roots-title">Built by explaining<br>how things work.</h2>
-        <p>Logic Design Lab was founded in 2000 by Michelangelo Carrozzo after decades of hands-on work in radio and five years as Editorial Director and electronics designer at the Italian technical magazine <em>Nuova Elettronica</em>.</p>
-        <p>That editorial discipline remains part of the laboratory’s engineering culture: a circuit should not only work. Its operating principles, trade-offs and failure modes should be understandable.</p>
-        <p class="affiliation"><span>AES</span> Michelangelo Carrozzo is an active member of the Audio Engineering Society.</p>
-        <blockquote>“The point where a simulation finally agrees with the measurement bench is still the most interesting part.”</blockquote>
-      </div>
-      <div class="roots-aside">
-        <p class="roots-year">1995—2000</p>
-        <h3>Nuova Elettronica</h3>
-        <p>RF transmitters and receivers · PLL theory · laboratory instruments · precision measurement · tube hi-fi · TTL and CMOS fundamentals</p>
-        <div class="editorial-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact" aria-labelledby="contact-title">
-      <p class="section-index">08 / CONTACT</p>
-      <div>
-        <h2 id="contact-title">Have a difficult<br>signal path?</h2>
-        <p>Start with the engineering problem. The useful conversation usually begins before the schematic.</p>
-      </div>
-      <div class="contact-details">
-        <span>Bologna · Italy</span>
-        <a href="mailto:logicdesignlabs@gmail.com">logicdesignlabs@gmail.com <b>↗</b></a>
-      </div>
-    </section>
+    <section class="roots page-width" aria-labelledby="roots-title"><div><p class="eyebrow">Before Logic Design Lab</p><h2 id="roots-title">Radio, valves<br>and TTL.</h2></div><div class="roots-copy"><p>From 1995 to 2000, Michelangelo was Editorial Director and electronics designer at <em>Nuova Elettronica</em>: PLL radios, vector impedance meters, counters and valve amplifiers, built as kits and explained to readers.</p><p>He wrote the articles with Giuseppe Montuschi, who taught him how to make difficult electronics understandable.</p><p class="affiliation">Active member of the Audio Engineering Society.</p></div></section>
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="page-width contact-inner"><div><p class="eyebrow">Logic Design Lab · Bologna, Italy</p><h2 id="contact-title">Contact Michelangelo.</h2><p>A complete system, an RF section or hardware ready for production.</p></div><a href="mailto:logicdesignlabs@gmail.com">logicdesignlabs@gmail.com <span aria-hidden="true">↗</span></a></div></section>
   </main>
-
-  <footer>
-    <span>© 2026 Logic Design Lab</span>
-    <span>Logic Design di Carrozzo Michelangelo · Bologna, Italy</span>
-    <a href="#top">Back to signal start ↑</a>
-  </footer>
+  <footer class="page-width"><span>© 2026 Logic Design Lab</span><span>Logic Design di Carrozzo Michelangelo</span><a href="#top">Back to top ↑</a></footer>
   <!-- Cloudflare Web Analytics -->
   <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"5b17ac4812dd4bd881d80ebd930e38b0"}'></script>
   <!-- End Cloudflare Web Analytics -->
