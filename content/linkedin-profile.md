@@ -5,6 +5,10 @@ descriptions were published and verified. Skills were added and reordered;
 existing FPGA was retained rather than duplicated as FPGA Design. Featured links
 remain pending because LinkedIn could not generate their previews.
 
+The SDR sentence in About below was published on 11 September 2026.
+It expresses openness to new projects, not prior SDR delivery. Headline, experience
+and the suggested Skills order remain unchanged.
+
 ## Headline
 
 RF & wireless audio design | Analog hardware, FPGA & radio protocols | Logic Design Lab
@@ -14,6 +18,8 @@ RF & wireless audio design | Analog hardware, FPGA & radio protocols | Logic Des
 I design RF and wireless audio systems. I run Logic Design Lab, my independent laboratory in Bologna, founded in 2000.
 
 My designs have gone into products for RCF, dBTechnologies, beyerdynamic and DPA Microphones. I design the transmitter and receiver hardware, the radio protocol and the FPGA logic that recovers the data and clock. The work ranges from wideband PCB antennas and switched RF filters to low-noise audio circuits.
+
+I’m also open to software-defined radio (SDR) projects that build on my RF hardware and FPGA experience.
 
 I also take the hardware into production: test benches, calibration procedures and time on the factory floor training operators. This has meant extended stays in China, as well as production work in Germany and Italy.
 

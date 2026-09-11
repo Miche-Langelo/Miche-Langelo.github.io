@@ -1,4 +1,4 @@
-:root { --paper: #f5f6f4; --ink: #14222a; --muted: #536169; --line: #c6cecf; --blue: #1269a8; --light-blue: #8bc8e7; --sans: "Manrope", Arial, sans-serif; --mono: "IBM Plex Mono", Consolas, monospace; }
+:root { --paper: #f5f6f4; --ink: #14222a; --muted: #536169; --line: #c6cecf; --brand-blue: #2e72c5; --blue: #1269a8; --light-blue: #8bc8e7; --sans: "Manrope", Arial, sans-serif; --mono: "IBM Plex Mono", Consolas, monospace; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.65 var(--sans); -webkit-font-smoothing: antialiased; }
@@ -19,16 +19,14 @@ p + p { margin-top: 1rem; }
 .skip-link:focus { top: 1rem; }
 .site-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; min-height: 98px; border-bottom: 1px solid var(--ink); }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-size: 1.1rem; font-weight: 600; text-decoration: none; letter-spacing: -.03em; }
-.brand strong { color: var(--blue); }
-.brand-mark { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; width: 29px; height: 29px; padding: 3px; border: 1px solid var(--ink); }
-.brand-mark i { background: var(--ink); }
-.brand-mark i:last-child { background: var(--blue); }
+.brand strong { color: var(--brand-blue); }
+.brand-logo { flex: 0 0 auto; width: 5rem; height: 5rem; border-radius: 50%; }
 .header-location { font: .75rem var(--mono); color: var(--muted); }
 nav { display: flex; gap: 1.5rem; }
 nav a { font-size: .875rem; text-decoration: none; padding-block: .7rem; }
 .hero { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(2.5rem, 5vw, 5.5rem); align-items: center; padding-block: 4.5rem 4rem; }
 .hero h1 { margin: 1.5rem 0 1.75rem; font: 400 clamp(3.7rem, 6.7vw, 6.2rem)/.98 Georgia, "Times New Roman", serif; letter-spacing: -.055em; }
-.hero h1 em { color: var(--blue); font-weight: 400; }
+.hero h1 em { color: var(--brand-blue); font-weight: 400; }
 .hero-lead { font-size: 1.2rem; line-height: 1.5; letter-spacing: -.015em; }
 .hero-copy > p:not(.eyebrow):not(.hero-lead) { max-width: 31rem; color: var(--muted); margin-top: 1.2rem; }
 .text-link { display: inline-flex; align-items: center; gap: 1.5rem; padding-block: .6rem; margin-top: 1.4rem; font-size: .875rem; text-decoration-thickness: 1px; }
@@ -111,6 +109,7 @@ footer a { text-decoration: none; }
   .page-width { width: calc(100% - 40px); }
   .site-header { min-height: auto; padding-block: 1.15rem; gap: .65rem 1.5rem; }
   .brand { font-size: 1rem; }
+  .brand-logo { width: 4.5rem; height: 4.5rem; }
   nav { gap: 1.2rem; }
   .hero { grid-template-columns: minmax(0, 1fr); padding-block: 2.5rem 2rem; gap: 2rem; }
   .hero h1 { font-size: clamp(3.2rem, 13.5vw, 5.6rem); }
