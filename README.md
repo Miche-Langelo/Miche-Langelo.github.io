@@ -13,11 +13,17 @@ The public site is intentionally dependency-free: no build step, framework or Ja
 
 ## September 2026 editorial revision
 
-The `redesign/concise-lab-20260911` branch contains a shorter homepage and an
-English LinkedIn draft. These are prepared for review, not deployed.
+The approved shorter homepage was published to GitHub Pages on 11 September
+2026 from commit `56d1ae5` on `redesign/concise-lab-20260911`.
 
-- `review/linkedin.html` — readable preview of the proposed profile
+- `review/linkedin.html` — retained preview of the approved profile
 - `content/linkedin-profile.md` — exact text and field notes
 
 Both directories are excluded from GitHub Pages by `_config.yml`.
-The existing public site and LinkedIn profile have not been changed.
+The English LinkedIn headline, About and both experience descriptions have been
+published and verified. Skills were added and reordered without removing existing
+entries; the existing FPGA skill was retained instead of creating a duplicate.
+
+The two proposed Featured links remain pending: LinkedIn could not generate their
+previews and disabled saving. The existing contact website, patent record,
+languages and banner were left unchanged.

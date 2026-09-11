@@ -1,6 +1,9 @@
 # Michelangelo Carrozzo — LinkedIn revision
 
-English text prepared for review, 11 September 2026.
+English text approved on 11 September 2026. Headline, About and both experience
+descriptions were published and verified. Skills were added and reordered;
+existing FPGA was retained rather than duplicated as FPGA Design. Featured links
+remain pending because LinkedIn could not generate their previews.
 
 ## Headline
 
