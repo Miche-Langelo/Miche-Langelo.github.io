@@ -79,6 +79,9 @@ summary::marker { color: var(--light-blue); }
 .simulation-pair img { height: 150px; object-fit: contain; }
 .bench-gallery { margin-top: 2rem; }
 .bench-gallery-grid img { height: 360px; object-fit: cover; }
+.hardware-photo-crop { height: 360px; overflow: hidden; }
+/* Keep the people on the left outside the frame at every screen width. */
+.bench-gallery-grid .hardware-photo-crop img { height: 100%; object-position: 55% center; transform: scale(1.8); transform-origin: right center; }
 .roots { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 5rem; padding-block: 3rem 4rem; border-top: 1px solid var(--line); }
 .roots h2 { margin-top: .9rem; }
 .roots-copy { min-width: 0; color: var(--muted); }
@@ -132,6 +135,7 @@ footer a { text-decoration: none; }
   .sonnet-image img { height: auto; max-height: 260px; object-position: center; }
   .bench-gallery-grid { grid-template-columns: minmax(0, 1fr); }
   .bench-gallery-grid img { height: 300px; }
+  .hardware-photo-crop { height: 300px; }
   .contact-inner { padding-block: 2.25rem; }
   .contact-inner > a { overflow-wrap: anywhere; }
   footer { display: grid; gap: .4rem; }
