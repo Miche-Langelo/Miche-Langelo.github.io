@@ -90,8 +90,14 @@ summary::marker { color: var(--light-blue); }
 .contact-inner { display: flex; align-items: end; justify-content: space-between; gap: 3rem; padding-block: 2.75rem; }
 .contact h2 { margin: .7rem 0 1rem; }
 .contact p:not(.eyebrow) { color: var(--muted); }
-.contact-inner > a { flex-shrink: 0; padding-bottom: .2rem; font-size: 1rem; }
-.contact-inner > a span { display: inline-block; margin-left: 1rem; color: var(--blue); }
+.contact-actions { flex: 0 0 auto; max-width: 100%; }
+.contact-tools { display: flex; align-items: center; flex-wrap: wrap; gap: .75rem; }
+.contact-tools a { font-size: 1rem; overflow-wrap: anywhere; }
+.copy-email { min-width: 7rem; min-height: 44px; padding: .5rem .85rem; border: 1px solid #748993; border-radius: 3px; background: transparent; color: var(--ink); font: .875rem/1.4 var(--mono); cursor: pointer; }
+.copy-email:hover { background: #d4dfe4; }
+.copy-email:focus-visible, .copy-manual:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.contact .copy-status { min-height: 1.5em; max-width: 24rem; margin: .45rem 0 0; font-size: .875rem; }
+.copy-manual { box-sizing: border-box; width: 100%; max-width: 24rem; margin-top: .5rem; padding: .65rem; border: 1px solid #748993; background: #fff; color: #15232b; font-family: inherit; font-size: 1rem; line-height: 1.5; }
 footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; padding-block: 1.4rem; font: .75rem/1.6 var(--mono); color: var(--muted); }
 footer a { text-decoration: none; }
 @media (max-width: 1050px) {
@@ -106,7 +112,7 @@ footer a { text-decoration: none; }
   .section-heading .byline { display: none; }
   .bench-layout { gap: 2rem; }
   .contact-inner { display: block; }
-  .contact-inner > a { display: inline-block; margin-top: 1.4rem; }
+  .contact-actions { margin-top: 1.4rem; }
 }
 @media (max-width: 700px) {
   .page-width { width: calc(100% - 40px); }
@@ -137,7 +143,6 @@ footer a { text-decoration: none; }
   .bench-gallery-grid img { height: 300px; }
   .hardware-photo-crop { height: 300px; }
   .contact-inner { padding-block: 2.25rem; }
-  .contact-inner > a { overflow-wrap: anywhere; }
   footer { display: grid; gap: .4rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
