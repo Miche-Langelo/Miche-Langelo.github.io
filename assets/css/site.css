@@ -40,12 +40,12 @@ figcaption { font: .75rem/1.6 var(--mono); color: var(--muted); margin-top: .75r
 .collaboration-brands h3 { color: var(--muted); font: 400 .875rem/1.6 var(--mono); letter-spacing: 0; }
 .brand-pair, .brand-trio { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 2rem; margin-top: .8rem; }
 .brand-pair img, .brand-trio img { width: auto; max-width: 100%; height: 28px; object-fit: contain; object-position: left center; }
-.brand-pair .wisycom-logo { width: 135px; filter: brightness(0); }
+.brand-pair .wisycom-logo { width: 145px; height: 38px; padding: 9px 10px; background: #14222a; }
 .brand-pair .dpa-logo { width: 100px; height: 34px; }
 .previous-brands { margin-top: 1.5rem; }
-.brand-trio .rcf-logo { width: 64px; height: 31px; mix-blend-mode: multiply; filter: grayscale(1); }
+.brand-trio .rcf-logo { width: 64px; height: 31px; mix-blend-mode: multiply; }
 .brand-trio .db-logo { width: 130px; filter: brightness(0); }
-.brand-trio .beyer-logo { width: 145px; filter: grayscale(1); }
+.brand-trio .beyer-logo { width: 145px; }
 .additional-collaborations { margin-top: 1.25rem; color: var(--muted); font-size: .875rem; }
 .engineering { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 5rem; padding-block: 3rem 4rem; border-top: 1px solid var(--line); }
 .section-side h2 { margin: .9rem 0 1rem; }
