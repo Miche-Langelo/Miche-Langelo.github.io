@@ -1,0 +1,7 @@
+wisycom.png: https://wisycom.com/app/uploads/WisycomLogo-WebHeader_WhiteRed.png
+dpa.svg: https://www.dpamicrophones.com/media/odrjrg5w/dpa-logo-black-screen.svg
+rcf-group.jpg: https://rcf-group.it/wp-content/uploads/2019/09/Logo-RCF-Group.jpg
+dbtechnologies.png: https://www.dbtechnologies.com/aw-themes/default/imgs/dbtechnologies-white.png
+beyerdynamic.svg: https://wecdn-f865.kxcdn.com/_next/static/immutable/media/logo.1otveo01ykzzo.svg
+audiotonix.png: https://audiotonix.com/wp-content/uploads/2024/07/Audiotonix-Logo-High-Res-004-300x54.png
+Retrieved 2026-11-22. Original brand assets; used to identify current and past collaborations.
