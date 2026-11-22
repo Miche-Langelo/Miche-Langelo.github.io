@@ -34,6 +34,12 @@ nav a { font-size: .875rem; text-decoration: none; padding-block: .7rem; }
 .hero-photo img { aspect-ratio: 1.07; object-fit: cover; object-position: center; }
 figcaption { font: .75rem/1.6 var(--mono); color: var(--muted); margin-top: .75rem; }
 .hero-photo figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
+.collaborations { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 5rem; padding-block: 1.5rem; border-top: 1px solid var(--line); }
+.collaborations h2 { color: var(--muted); font: 400 .875rem/1.65 var(--mono); letter-spacing: 0; }
+.collaboration-list { display: grid; gap: .5rem; }
+.collaboration-list > div { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 1rem; align-items: baseline; }
+.collaboration-list dt { color: var(--muted); font-size: .875rem; }
+.collaboration-list dd { margin: 0; font-size: 1rem; }
 .engineering { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 5rem; padding-block: 3rem 4rem; border-top: 1px solid var(--line); }
 .section-side h2 { margin: .9rem 0 1rem; }
 .section-side > p:last-child { color: var(--muted); font-size: .875rem; }
@@ -107,6 +113,7 @@ footer a { text-decoration: none; }
   .hero h1 { font-size: clamp(3.7rem, 7.7vw, 5.5rem); }
   .hero-photo img { aspect-ratio: .83; }
   .engineering, .roots { grid-template-columns: minmax(0, .6fr) minmax(0, 1fr); gap: 2.5rem; }
+  .collaborations { grid-template-columns: minmax(0, .6fr) minmax(0, 1fr); gap: 2.5rem; }
   .engineering-list > div { grid-template-columns: minmax(0, 1fr); gap: .4rem; }
   .featured-project, .project-register article { gap: 2rem; }
   .section-heading .byline { display: none; }
@@ -125,6 +132,8 @@ footer a { text-decoration: none; }
   .hero-lead { font-size: 1.1rem; }
   .hero-photo img { aspect-ratio: 1.15; }
   .hero-photo figcaption { font-size: .75rem; }
+  .collaborations { grid-template-columns: minmax(0, 1fr); gap: .85rem; }
+  .collaboration-list > div { grid-template-columns: 4.5rem minmax(0, 1fr); gap: .75rem; }
   .engineering, .roots { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; padding-block: 2.5rem; }
   .section-side h2 br { display: none; }
   .section-side h2 { font-size: 2.2rem; }
