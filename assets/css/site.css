@@ -34,25 +34,19 @@ nav a { font-size: .875rem; text-decoration: none; padding-block: .7rem; }
 .hero-photo img { aspect-ratio: 1.07; object-fit: cover; object-position: center; }
 figcaption { font: .75rem/1.6 var(--mono); color: var(--muted); margin-top: .75rem; }
 .hero-photo figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
-.collaborations { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 5rem; padding-block: 3rem; border-top: 1px solid var(--line); }
-.collaboration-intro h2 { margin: .85rem 0 1rem; font-size: clamp(2rem, 2.8vw, 3rem); }
+.collaborations { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 5rem; padding-block: 2.5rem; border-bottom: 1px solid var(--line); }
+.collaboration-intro h2 { margin: .7rem 0 .8rem; font-size: clamp(1.8rem, 2.2vw, 2.4rem); }
 .collaboration-intro > p:last-child { max-width: 27rem; color: var(--muted); }
-.collaboration-brands h3 { font: 400 .875rem/1.6 var(--mono); letter-spacing: 0; }
-.current-brands { padding: 1.5rem 2rem; background: var(--ink); color: #f3f6f6; }
-.current-brands h3 { color: #b7d8ea; }
-.brand-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem; align-items: center; margin-block: 1.8rem; }
-.brand-pair img { width: 100%; max-width: 210px; height: 58px; object-fit: contain; object-position: left center; }
-.brand-pair .dpa-logo { filter: invert(1); max-width: 160px; }
-.group-affiliation { display: flex; align-items: center; flex-wrap: wrap; gap: .85rem; color: #ced8de; font-size: .875rem; }
-.group-affiliation img { width: 140px; height: auto; filter: brightness(0) invert(1); }
-.group-affiliation a:hover { color: white; }
+.collaboration-brands h3 { color: var(--muted); font: 400 .875rem/1.6 var(--mono); letter-spacing: 0; }
+.brand-pair, .brand-trio { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 2rem; margin-top: .8rem; }
+.brand-pair img, .brand-trio img { width: auto; max-width: 100%; height: 28px; object-fit: contain; object-position: left center; }
+.brand-pair .wisycom-logo { width: 135px; filter: brightness(0); }
+.brand-pair .dpa-logo { width: 100px; height: 34px; }
 .previous-brands { margin-top: 1.5rem; }
-.previous-brands h3 { color: var(--muted); }
-.brand-trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: center; gap: 2rem; margin-top: 1.25rem; }
-.brand-trio img { width: 100%; height: 48px; object-fit: contain; }
-.brand-trio .rcf-logo { max-width: 120px; mix-blend-mode: multiply; }
-.brand-trio .db-logo { filter: brightness(0); }
-.additional-collaborations { margin-top: 1.5rem; color: var(--muted); font-size: .875rem; }
+.brand-trio .rcf-logo { width: 64px; height: 31px; mix-blend-mode: multiply; filter: grayscale(1); }
+.brand-trio .db-logo { width: 130px; filter: brightness(0); }
+.brand-trio .beyer-logo { width: 145px; filter: grayscale(1); }
+.additional-collaborations { margin-top: 1.25rem; color: var(--muted); font-size: .875rem; }
 .engineering { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: 5rem; padding-block: 3rem 4rem; border-top: 1px solid var(--line); }
 .section-side h2 { margin: .9rem 0 1rem; }
 .section-side > p:last-child { color: var(--muted); font-size: .875rem; }
@@ -146,11 +140,8 @@ footer a { text-decoration: none; }
   .hero-photo img { aspect-ratio: 1.15; }
   .hero-photo figcaption { font-size: .75rem; }
   .collaborations { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; padding-block: 2.5rem; }
-  .current-brands { padding: 1.25rem; }
   .brand-pair { gap: 1.5rem; }
-  .brand-pair img { height: 44px; }
-  .brand-trio { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 1.5rem; }
-  .brand-trio .beyer-logo { grid-column: 1 / -1; max-width: 180px; }
+  .brand-trio { gap: 1rem 1.5rem; }
   .engineering, .roots { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; padding-block: 2.5rem; }
   .section-side h2 br { display: none; }
   .section-side h2 { font-size: 2.2rem; }
